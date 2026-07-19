@@ -3,11 +3,9 @@
 
 TFT_eSPI tft = TFT_eSPI();
 
-// --- Женя міняє тільки ці три рядки ---
 const char* TEXT       = "Hello world";
-#define BG_COLOR   TFT_WHITE   // колір фону
-#define TEXT_COLOR TFT_BLACK   // колір тексту
-// --------------------------------------
+#define BG_COLOR   TFT_WHITE 
+#define TEXT_COLOR TFT_BLACK
 
 void setup() {
   tft.init();
